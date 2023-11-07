@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            flex-direction: row;
+        }
+
+        #mainBg_1 {
+            margin: 10px;
+            position: relative;
+            display: flex;
+            align-self: center;
+            width: 640px;
+            height: 640px;
+            background-image: url("DEL_HAVIDIJ_DELONGHI_laSpecialistaOnlineVideoPoster_640X640px.png");
+        }
+
+        #mainBg_2 {
+            margin: 10px;
+            position: relative;
+            display: flex;
+            align-self: center;
+            width: 320px;
+            height: 600px;
+            background-image: url("DEL_HAVIDIJ_DELONGHI_laSpecialistaOnlineVideoPoster_320X600px.png");
+        }
+
+        #video_1 {
+            width: 460px;
+            height: auto;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        
+        #video_2 {
+            width: 280px;
+            height: auto;
+            position: absolute;
+            bottom: 30px;
+            left: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="mainBg_1">
+        <video id="video_1" src="DEL_HAVIDIJ_DELONGHI_laSpecialistaOnlineVideoPoster_460px.mp4" controls autoplay loop></video>
+    </div>
+    <div id="mainBg_2">
+    <video id="video_2" src="DEL_HAVIDIJ_DELONGHI_laSpecialistaOnlineVideoPoster_320px.mp4" controls autoplay loop></video>
+    </div>
+</body>
+</html>
